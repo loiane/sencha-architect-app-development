@@ -1,0 +1,14 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "js",
+        "url": "cordova-2.5.0.js",
+        "id": "phonegap"
+    },
+    "designerId": "a2a77e82-09a2-4448-b759-5766e9a94676"
+}

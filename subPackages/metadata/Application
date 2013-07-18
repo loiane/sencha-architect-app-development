@@ -1,0 +1,27 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "MainPanel",
+            "MyViewport",
+            "Translation",
+            "toolbar.AddEditDelete",
+            "toolbar.CancelClearAdd",
+            "toolbar.CancelSave",
+            "toolbar.SearchAddDelete",
+            "security.GroupPermissions",
+            "security.Groups",
+            "security.GroupsEdit",
+            "security.GroupsList",
+            "security.Profile"
+        ],
+        "autoCreateViewport": true,
+        "name": "Packt"
+    },
+    "designerId": "application"
+}

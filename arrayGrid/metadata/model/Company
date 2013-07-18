@@ -1,0 +1,80 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "idProperty": "company",
+        "designer|userClassName": "Company"
+    },
+    "designerId": "e5751a30-30a3-4ec8-ba73-569935187894",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "company"
+            },
+            "designerId": "c6522b0c-7d5f-4365-96e3-55354613f7c7"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "price",
+                "type": "float"
+            },
+            "designerId": "a1eb75f5-d5e5-4758-b074-e766ba29b977"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "change",
+                "type": "float"
+            },
+            "designerId": "41ef1489-2792-4073-aab6-6f5571907103"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "pctChange",
+                "type": "float"
+            },
+            "designerId": "d5a4fb04-dd96-4b05-a3fd-7a39cb54c18d"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dateFormat": "n/j h:ia",
+                "name": "lastChange",
+                "type": "date"
+            },
+            "designerId": "bc55f64a-768f-4549-af5e-1a01f043ff24"
+        }
+    ]
+}

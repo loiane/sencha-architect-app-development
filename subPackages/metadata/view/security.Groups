@@ -1,0 +1,14 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 250,
+        "width": 400,
+        "designer|userClassName": "security.Groups"
+    },
+    "designerId": "7bbf302d-cdda-446c-92a1-a4f88ec0ecf3"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "Ext.button.Split",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Translation",
+        "text": "MyButton"
+    },
+    "designerId": "be6046f9-469c-40f8-9568-c8c01b2af3c1"
+}

@@ -1,0 +1,162 @@
+{
+    "type": "Ext.grid.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": null,
+        "width": null,
+        "designer|userClassName": "BooksGrid",
+        "designer|userAlias": "booksgrid",
+        "title": "Books",
+        "store": "Books"
+    },
+    "designerId": "ab77b918-c519-4d99-a3e6-fdc44f1b19dc",
+    "cn": [
+        {
+            "type": "Ext.grid.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyGridView"
+            },
+            "designerId": "5442d58b-33aa-467d-96c4-2a0f5bfcc940"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 53,
+                "designer|userClassName": "MyColumn1",
+                "dataIndex": "id",
+                "text": "Id"
+            },
+            "designerId": "e3d466b8-64da-4616-94b2-fd25cbab7620"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn2",
+                "dataIndex": "name",
+                "text": "Name",
+                "flex": 1
+            },
+            "designerId": "8fa89e59-0225-4473-9391-2a11a7cd5b4d"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn3",
+                "dataIndex": "author",
+                "text": "Author"
+            },
+            "designerId": "3b1d87ee-9b8a-4d5c-a933-5d03b5e7b091"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn5",
+                "dataIndex": "language",
+                "text": "Language"
+            },
+            "designerId": "ac11fa61-479d-4f79-9bc6-fd992e67f397"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 180,
+                "designer|userClassName": "MyColumn6",
+                "dataIndex": "paperback",
+                "text": "Paperback"
+            },
+            "designerId": "c8bb5c90-ea25-4b6e-b825-ec85015e3ca6"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn7",
+                "dataIndex": "releaseDate",
+                "text": "Release Date"
+            },
+            "designerId": "1e6a5d09-e4b0-4893-9ad3-a8b30090ce0a"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn8",
+                "dataIndex": "isbn",
+                "text": "Isbn"
+            },
+            "designerId": "c4019787-2723-47aa-bd55-60ab5e8c939d"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn9",
+                "dataIndex": "isbn13",
+                "text": "Isbn13"
+            },
+            "designerId": "52e3f683-545e-47fc-82cd-fccf23a60db0"
+        },
+        {
+            "type": "Ext.toolbar.Paging",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "bottom",
+                "width": 360,
+                "designer|userClassName": "MyPagingToolbar",
+                "displayInfo": true,
+                "store": "Books"
+            },
+            "designerId": "babc83ea-51fb-4caa-9cf0-524ae4a486a1"
+        }
+    ]
+}

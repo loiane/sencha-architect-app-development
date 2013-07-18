@@ -1,0 +1,44 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "Tweet",
+        "storeId": "Tweets",
+        "designer|userClassName": "Tweets"
+    },
+    "designerId": "5f52e616-7d2a-4cdd-8d24-e50bec1d6d76",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy",
+                "url": "http://localhost/sencha-architect/TouchTwitterSearch/php/search-twitter.php"
+            },
+            "designerId": "e81a7796-0431-4d5f-9b4d-ef78985cef52",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "results",
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "designerId": "d9db497e-0fb8-4d26-86bb-ce2b3a640a43"
+                }
+            ]
+        }
+    ]
+}

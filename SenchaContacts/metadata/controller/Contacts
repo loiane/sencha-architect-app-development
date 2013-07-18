@@ -1,0 +1,37 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Contacts"
+    },
+    "designerId": "23601407-3f29-4ac9-b919-f6b3f6bc30a1",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onListShow",
+                "implHandler": [
+                    "component.getStore().setProxy({",
+                    "    type: 'contactstorage'",
+                    "});",
+                    "document.addEventListener('deviceready', function(){",
+                    "    component.getStore().load();",
+                    "} , false);"
+                ],
+                "name": "show",
+                "designer|targetType": "ContactsList",
+                "designer|controlQuery": "list"
+            },
+            "designerId": "c4561f12-a004-49c3-9709-c551a4b883ff"
+        }
+    ]
+}

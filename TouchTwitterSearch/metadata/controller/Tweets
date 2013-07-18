@@ -1,0 +1,60 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Tweet"
+        ],
+        "stores": [
+            "Tweets"
+        ],
+        "views": [
+            "SearchList"
+        ],
+        "designer|userClassName": "Tweets"
+    },
+    "designerId": "7dbb6d9c-dc8e-47b1-9201-3c6b79ec9b88",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onButtonTap",
+                "fn": "onButtonTap",
+                "implHandler": [
+                    "var store = Ext.getStore(\"Tweets\");",
+                    "var text = this.getTextquery().getValue();",
+                    "",
+                    "store.load({params: { q: text, act: 'search'}});"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "searchlist button[action=search]"
+            },
+            "designerId": "fbb89ed1-54e4-459f-aedd-e67c45f617fc"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "textquery",
+                "ref": "textquery",
+                "selector": "searchlist field",
+                "xtype": "field"
+            },
+            "designerId": "8bcc34b0-cf9e-4f74-accd-fa6b5b7c771e"
+        }
+    ]
+}

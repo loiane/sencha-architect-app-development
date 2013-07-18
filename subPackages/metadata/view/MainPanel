@@ -1,0 +1,12 @@
+{
+    "type": "Ext.tab.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainPanel"
+    },
+    "designerId": "cc437b92-c594-486a-8741-576d1c77541d"
+}

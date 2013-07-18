@@ -1,0 +1,118 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Book"
+    },
+    "designerId": "484336a9-09e3-4bc6-b492-8f1d414f3b08",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id",
+                "designer|userClassName": "MyField"
+            },
+            "designerId": "8a0f57ea-0565-4c7a-9119-32805628245a"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name",
+                "designer|userClassName": "MyField1"
+            },
+            "designerId": "11170ebc-bf1f-4285-8f88-2c7fe52681fa"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "author",
+                "designer|userClassName": "MyField2"
+            },
+            "designerId": "79fd22e2-f123-4e2f-955a-6542fa017669"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "language",
+                "designer|userClassName": "MyField4"
+            },
+            "designerId": "fc8a00e2-8186-4c3c-be32-6129c0c4ca1b"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "paperback",
+                "designer|userClassName": "MyField5"
+            },
+            "designerId": "d2e229d0-4ce0-4d2b-8dab-2018f450c3dc"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "releaseDate",
+                "designer|userClassName": "MyField6"
+            },
+            "designerId": "2d00ea79-f171-4de9-a4c7-3904a32c3bd8"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "isbn",
+                "designer|userClassName": "MyField7"
+            },
+            "designerId": "a2a0965e-3d5b-40fd-95b0-7f7e98a66ef2"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "isbn13",
+                "designer|userClassName": "MyField8"
+            },
+            "designerId": "41ade186-2608-45e1-a525-12ea72dcdbf3"
+        }
+    ]
+}

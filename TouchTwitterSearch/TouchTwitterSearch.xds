@@ -1,0 +1,107 @@
+{
+    "name": "TouchTwitterSearch",
+    "settings": {
+        "urlPrefix": "http://localhost/sencha-architect/TouchTwitterSearch",
+        "spacesToIndent": 4,
+        "codeGenFormat": "Class",
+        "exportPath": "/Users/loiane/Desktop/twitter",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "lineEnding": "LF",
+        "instantiateStore": true,
+        "genTimestamps": false,
+        "saveOnDeploy": false,
+        "appName": "MyApp",
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "sdkPath": "/Applications/XAMPP/xamppfiles/htdocs/sencha-touch-2.1.0-gpl"
+    },
+    "xdsVersion": "2.2.1",
+    "xdsBuild": 951,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000500,
+    "framework": "touch22",
+    "topInstanceFileMap": {
+        "ad80770d-bade-46e7-86b8-744ea8bf552d": {
+            "paths": [
+                "metadata/view/SearchList",
+                "app/view/override/SearchList.js",
+                "app/view/SearchList.js"
+            ],
+            "className": "SearchList"
+        },
+        "5f52e616-7d2a-4cdd-8d24-e50bec1d6d76": {
+            "paths": [
+                "metadata/store/Tweets",
+                "app/store/override/Tweets.js",
+                "app/store/Tweets.js"
+            ],
+            "className": "Tweets"
+        },
+        "7a360599-1c1a-4cc9-b535-fcd8d04c2b48": {
+            "paths": [
+                "metadata/model/Tweet",
+                "app/model/override/Tweet.js",
+                "app/model/Tweet.js"
+            ],
+            "className": "Tweet"
+        },
+        "7dbb6d9c-dc8e-47b1-9201-3c6b79ec9b88": {
+            "paths": [
+                "metadata/controller/Tweets",
+                "app/controller/override/Tweets.js",
+                "app/controller/Tweets.js"
+            ],
+            "className": "Tweets"
+        },
+        "4b0ba7ab-f1b8-4ce6-b45d-b7dd14ea91c5": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "27700dd9-4ded-4645-95f0-a36486fdaee7": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        },
+        "3179590e-b56a-4a41-9b9f-f19a6cff44b9": {
+            "paths": [
+                "metadata/resource/css1"
+            ],
+            "className": "css1"
+        },
+        "8d2a0509-ad05-46d2-b308-592688af15a0": {
+            "paths": [
+                "metadata/resource/packager",
+                "",
+                "packager.json"
+            ],
+            "className": "packager"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "ad80770d-bade-46e7-86b8-744ea8bf552d"
+        ],
+        "store": [
+            "5f52e616-7d2a-4cdd-8d24-e50bec1d6d76"
+        ],
+        "controller": [
+            "7dbb6d9c-dc8e-47b1-9201-3c6b79ec9b88"
+        ],
+        "model": [
+            "7a360599-1c1a-4cc9-b535-fcd8d04c2b48"
+        ],
+        "resource": [
+            "4b0ba7ab-f1b8-4ce6-b45d-b7dd14ea91c5",
+            "27700dd9-4ded-4645-95f0-a36486fdaee7",
+            "3179590e-b56a-4a41-9b9f-f19a6cff44b9",
+            "8d2a0509-ad05-46d2-b308-592688af15a0"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

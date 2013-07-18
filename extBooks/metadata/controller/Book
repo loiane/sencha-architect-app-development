@@ -1,0 +1,44 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Book"
+        ],
+        "stores": [
+            "Books"
+        ],
+        "views": [
+            "BooksGrid",
+            "Main"
+        ],
+        "designer|userClassName": "Book"
+    },
+    "designerId": "6e33ce71-055f-4d0c-90c6-742c5cc23907",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onGridpanelRender",
+                "fn": "onGridpanelRender",
+                "implHandler": [
+                    "component.getStore().load();"
+                ],
+                "name": "render",
+                "scope": "me",
+                "designer|targetType": "BooksGrid",
+                "designer|controlQuery": "gridpanel"
+            },
+            "designerId": "81252115-85c1-466a-bd15-9167ffcd10f3"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Main",
+        "designer|initialView": true,
+        "layout": "fit"
+    },
+    "designerId": "7445bdf8-1422-4c3e-ba90-60d9f88acca3",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "80a700fa-7a40-4e47-9a71-98ad961885a5",
+            "masterInstanceId": "ab77b918-c519-4d99-a3e6-fdc44f1b19dc"
+        }
+    ]
+}

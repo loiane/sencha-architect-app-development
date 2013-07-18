@@ -1,0 +1,26 @@
+{
+    "type": "Ext.tree.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 250,
+        "width": 400,
+        "designer|userClassName": "security.GroupPermissions",
+        "title": "My Tree Panel"
+    },
+    "designerId": "a44924a3-1176-4271-8098-6e44799434c0",
+    "cn": [
+        {
+            "type": "Ext.tree.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "020c4a43-aef4-41fc-a282-a26197f29794"
+        }
+    ]
+}

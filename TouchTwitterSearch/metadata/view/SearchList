@@ -1,0 +1,115 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "style": null,
+        "designer|userClassName": "SearchList",
+        "designer|userAlias": "searchlist",
+        "designer|initialView": true,
+        "disableSelection": true,
+        "selectedCls": null,
+        "store": "Tweets"
+    },
+    "designerId": "ad80770d-bade-46e7-86b8-744ea8bf552d",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "height": 50,
+                "ui": null,
+                "designer|userClassName": "MyToolbar1",
+                "title": "Touch Twitter Search"
+            },
+            "designerId": "e5409e17-2660-4c68-91c5-b8f05d7bceec"
+        },
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "style": null,
+                "designer|userClassName": "MyToolbar"
+            },
+            "designerId": "819d30ca-44fb-42c0-a82e-cdc9774ee673",
+            "cn": [
+                {
+                    "type": "Ext.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 4,
+                        "width": null,
+                        "designer|userClassName": "MyTextField",
+                        "label": "",
+                        "name": "textQuery"
+                    },
+                    "designerId": "2cd5cc94-6d02-402e-ada0-07e3999aba73"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "search",
+                        "layout|flex": 2,
+                        "ui": "round",
+                        "designer|userClassName": "MyButton",
+                        "text": "Search"
+                    },
+                    "designerId": "6a37b751-2315-42e0-a148-898909a156b1",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "itemTpl",
+                "implHandler": [
+                    "<div class=\"tweet_data\">",
+                    "<div class=\"tweet_avatar\">",
+                    "<img width=\"30\" height=\"30\" src=\"{profile_image_url}\"/>",
+                    "</div>",
+                    "<div class=\"tweet_content\">",
+                    "<a class=\"user\" href=\"http://twitter.com/{from_user}\">{from_user}</a>&nbsp;",
+                    "{text}",
+                    "</div>",
+                    "<div class=\"clear\"></div></div>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "2b15b128-5162-4252-84ff-38711f5cac92"
+        }
+    ]
+}

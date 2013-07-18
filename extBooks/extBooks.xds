@@ -1,0 +1,87 @@
+{
+    "name": "extBooks",
+    "settings": {
+        "spacesToIndent": 4,
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "urlPrefix": "http://localhost/sencha-architect/extBooks/",
+        "exportPath": "/Applications/XAMPP/xamppfiles/htdocs/sencha-architect/publish",
+        "buildShouldOverwriteIndex": true
+    },
+    "xdsVersion": "2.2.1",
+    "xdsBuild": 951,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000500,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "fd71c048-a00e-4e39-b739-7135255c124a": {
+            "paths": [
+                "metadata/store/Books",
+                "app/store/override/Books.js",
+                "app/store/Books.js"
+            ],
+            "className": "Books"
+        },
+        "484336a9-09e3-4bc6-b492-8f1d414f3b08": {
+            "paths": [
+                "metadata/model/Book",
+                "app/model/override/Book.js",
+                "app/model/Book.js"
+            ],
+            "className": "Book"
+        },
+        "41bae5d5-e4ee-421f-a694-b86811ccde8e": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "ab77b918-c519-4d99-a3e6-fdc44f1b19dc": {
+            "paths": [
+                "metadata/view/BooksGrid",
+                "app/view/override/BooksGrid.js",
+                "app/view/BooksGrid.js"
+            ],
+            "className": "BooksGrid"
+        },
+        "7445bdf8-1422-4c3e-ba90-60d9f88acca3": {
+            "paths": [
+                "metadata/view/Main",
+                "app/view/override/Main.js",
+                "app/view/Main.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "Main"
+        },
+        "6e33ce71-055f-4d0c-90c6-742c5cc23907": {
+            "paths": [
+                "metadata/controller/Book",
+                "app/controller/override/Book.js",
+                "app/controller/Book.js"
+            ],
+            "className": "Book"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "ab77b918-c519-4d99-a3e6-fdc44f1b19dc",
+            "7445bdf8-1422-4c3e-ba90-60d9f88acca3"
+        ],
+        "store": [
+            "fd71c048-a00e-4e39-b739-7135255c124a"
+        ],
+        "controller": [
+            "6e33ce71-055f-4d0c-90c6-742c5cc23907"
+        ],
+        "model": [
+            "484336a9-09e3-4bc6-b492-8f1d414f3b08"
+        ],
+        "resource": [
+            "41bae5d5-e4ee-421f-a694-b86811ccde8e"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

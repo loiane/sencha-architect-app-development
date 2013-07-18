@@ -1,0 +1,89 @@
+{
+    "name": "SenchaContacts",
+    "settings": {
+        "sdkPath": "/Applications/XAMPP/xamppfiles/htdocs/sencha-touch-2.1.0-gpl",
+        "urlPrefix": "",
+        "exportPath": ""
+    },
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 991,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "touch21",
+    "topInstanceFileMap": {
+        "84d30342-043b-49f8-a5e0-d15af6ae1128": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "d751ef77-e41c-485d-9dcb-b53c91fa4e7e": {
+            "paths": [
+                "metadata/model/Contact",
+                "app/model/override/Contact.js",
+                "app/model/Contact.js"
+            ],
+            "className": "Contact"
+        },
+        "131550bd-322b-4e1f-b01b-1ec85c0e0c6f": {
+            "paths": [
+                "metadata/store/Contacts",
+                "app/store/override/Contacts.js",
+                "app/store/Contacts.js"
+            ],
+            "className": "Contacts"
+        },
+        "539347a7-01f9-4efb-8601-7fbd0628f7c4": {
+            "paths": [
+                "metadata/view/ContactsList",
+                "app/view/override/ContactsList.js",
+                "app/view/ContactsList.js"
+            ],
+            "className": "ContactsList"
+        },
+        "23601407-3f29-4ac9-b919-f6b3f6bc30a1": {
+            "paths": [
+                "metadata/controller/Contacts",
+                "app/controller/override/Contacts.js",
+                "app/controller/Contacts.js"
+            ],
+            "className": "Contacts"
+        },
+        "a2a77e82-09a2-4448-b759-5766e9a94676": {
+            "paths": [
+                "metadata/resource/js"
+            ],
+            "className": "js"
+        },
+        "6e4c820c-0e8a-4470-a6bc-6b9940c67788": {
+            "paths": [
+                "metadata/resource/packager",
+                "",
+                "packager.json"
+            ],
+            "className": "packager"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "539347a7-01f9-4efb-8601-7fbd0628f7c4"
+        ],
+        "store": [
+            "131550bd-322b-4e1f-b01b-1ec85c0e0c6f"
+        ],
+        "controller": [
+            "23601407-3f29-4ac9-b919-f6b3f6bc30a1"
+        ],
+        "model": [
+            "d751ef77-e41c-485d-9dcb-b53c91fa4e7e"
+        ],
+        "resource": [
+            "84d30342-043b-49f8-a5e0-d15af6ae1128",
+            "a2a77e82-09a2-4448-b759-5766e9a94676",
+            "6e4c820c-0e8a-4470-a6bc-6b9940c67788"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "Contact",
+        "storeId": "Contacts",
+        "designer|userClassName": "Contacts",
+        "requires": [
+            "Packt.proxy.ContactsProxy"
+        ]
+    },
+    "designerId": "131550bd-322b-4e1f-b01b-1ec85c0e0c6f",
+    "cn": [
+        {
+            "type": "Ext.util.Grouper",
+            "reference": {
+                "name": "grouper",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "7f1dce3e-313e-419e-ae99-7ff27ac3239d",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "groupFn",
+                        "designer|params": [
+                            "item"
+                        ],
+                        "implHandler": [
+                            "if (item.get('givenName')){",
+                            "    return item.get('givenName')[0];",
+                            "} else if (item.get('familyName')){",
+                            "    return item.get('familyName')[0];",
+                            "} ",
+                            "return \"-\";",
+                            ""
+                        ]
+                    },
+                    "designerId": "e4426869-8c28-4ad7-bf13-f28e58cd0cb9"
+                }
+            ]
+        }
+    ]
+}

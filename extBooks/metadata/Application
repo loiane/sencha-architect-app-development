@@ -1,0 +1,16 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoCreateViewport": true,
+        "controllers": [
+            "Book"
+        ],
+        "name": "Packt"
+    },
+    "designerId": "application"
+}

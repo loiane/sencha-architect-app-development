@@ -1,0 +1,47 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "model": "Book",
+        "storeId": "books",
+        "designer|userClassName": "Books",
+        "pageSize": 5
+    },
+    "designerId": "fd71c048-a00e-4e39-b739-7135255c124a",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy",
+                "api": null,
+                "url": "http://localhost/sencha-architect/extBooks/php/list.php"
+            },
+            "designerId": "9fadf219-44aa-4724-b16c-57047c4a9da8",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data",
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "designerId": "31423c7f-2301-47d9-b2fd-4cd8ec7f7a88"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+Before executing the project, please make sure you execute the dbscript.sql file.
+
+Server side technologies used: PHP + MySQL (but you can use the server side and database that you desire).

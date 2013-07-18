@@ -1,0 +1,24 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Contact"
+        ],
+        "stores": [
+            "Contacts"
+        ],
+        "views": [
+            "ContactsList"
+        ],
+        "controllers": [
+            "Contacts"
+        ],
+        "name": "Packt"
+    },
+    "designerId": "application"
+}

@@ -1,0 +1,26 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "AppViewport",
+        "autoScroll": true,
+        "layout": "fit"
+    },
+    "designerId": "da4a6cb5-2e1b-41da-9e8b-0d6c5e62d0b1",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "08c1872b-9510-4c56-8735-3ebf3a58649e",
+            "masterInstanceId": "d4f6d776-063e-4476-ab61-100e99bdc8d1"
+        }
+    ]
+}

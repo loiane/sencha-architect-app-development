@@ -1,0 +1,26 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Company"
+        ],
+        "stores": [
+            "Companies"
+        ],
+        "views": [
+            "CompanyGrid",
+            "AppViewport"
+        ],
+        "autoCreateViewport": true,
+        "controllers": [
+            "Company"
+        ],
+        "name": "Sencha"
+    },
+    "designerId": "application"
+}

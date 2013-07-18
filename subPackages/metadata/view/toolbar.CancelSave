@@ -1,0 +1,13 @@
+{
+    "type": "Ext.toolbar.Toolbar",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "width": 400,
+        "designer|userClassName": "toolbar.CancelSave"
+    },
+    "designerId": "25c4d11a-7ea9-4a62-98d5-4e79445c854e"
+}

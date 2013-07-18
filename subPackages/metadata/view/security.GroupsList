@@ -1,0 +1,78 @@
+{
+    "type": "Ext.grid.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 250,
+        "width": 400,
+        "designer|userClassName": "security.GroupsList",
+        "title": "My Grid Panel"
+    },
+    "designerId": "a163da26-10db-429f-9493-f411ae597e48",
+    "cn": [
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "string",
+                "text": "String"
+            },
+            "designerId": "b5ffd58b-874c-44ff-afb4-7078e2f68635"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "number",
+                "text": "Number"
+            },
+            "designerId": "350fa09c-ba5c-45a3-9b42-ba04c9418c27"
+        },
+        {
+            "type": "Ext.grid.column.Date",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "date",
+                "text": "Date"
+            },
+            "designerId": "147b3d03-384e-48a0-82a4-a2c0ae23a9a8"
+        },
+        {
+            "type": "Ext.grid.column.Boolean",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "bool",
+                "text": "Boolean"
+            },
+            "designerId": "7dce974d-f99f-4545-ab86-90addc1b7bf6"
+        },
+        {
+            "type": "Ext.grid.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "dcb64e05-0e17-4de9-aa93-057bc4067df3"
+        }
+    ]
+}

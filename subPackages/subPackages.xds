@@ -1,0 +1,139 @@
+{
+    "name": "subPackages",
+    "settings": {},
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 991,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "cc437b92-c594-486a-8741-576d1c77541d": {
+            "paths": [
+                "metadata/view/MainPanel",
+                "app/view/override/MainPanel.js",
+                "app/view/MainPanel.js"
+            ],
+            "className": "MainPanel"
+        },
+        "d30b42c6-25b3-4d7c-a5ff-eac2311164d8": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "be6046f9-469c-40f8-9568-c8c01b2af3c1": {
+            "paths": [
+                "metadata/view/Translation",
+                "app/view/override/Translation.js",
+                "app/view/Translation.js"
+            ],
+            "className": "Translation"
+        },
+        "15e275cb-5648-42db-bf03-b9e51835802a": {
+            "paths": [
+                "metadata/view/toolbar.AddEditDelete",
+                "app/view/override/toolbar/AddEditDelete.js",
+                "app/view/toolbar/AddEditDelete.js"
+            ],
+            "className": "toolbar.AddEditDelete"
+        },
+        "8c7cda12-5d95-4d37-87a2-a26484383947": {
+            "paths": [
+                "metadata/view/toolbar.CancelClearAdd",
+                "app/view/override/toolbar/CancelClearAdd.js",
+                "app/view/toolbar/CancelClearAdd.js"
+            ],
+            "className": "toolbar.CancelClearAdd"
+        },
+        "25c4d11a-7ea9-4a62-98d5-4e79445c854e": {
+            "paths": [
+                "metadata/view/toolbar.CancelSave",
+                "app/view/override/toolbar/CancelSave.js",
+                "app/view/toolbar/CancelSave.js"
+            ],
+            "className": "toolbar.CancelSave"
+        },
+        "4eff05f2-f1e5-4347-808e-40fa98aec738": {
+            "paths": [
+                "metadata/view/toolbar.SearchAddDelete",
+                "app/view/override/toolbar/SearchAddDelete.js",
+                "app/view/toolbar/SearchAddDelete.js"
+            ],
+            "className": "toolbar.SearchAddDelete"
+        },
+        "a44924a3-1176-4271-8098-6e44799434c0": {
+            "paths": [
+                "metadata/view/security.GroupPermissions",
+                "app/view/override/security/GroupPermissions.js",
+                "app/view/security/GroupPermissions.js"
+            ],
+            "className": "security.GroupPermissions"
+        },
+        "7bbf302d-cdda-446c-92a1-a4f88ec0ecf3": {
+            "paths": [
+                "metadata/view/security.Groups",
+                "app/view/override/security/Groups.js",
+                "app/view/security/Groups.js"
+            ],
+            "className": "security.Groups"
+        },
+        "207b4a66-8557-4044-a1ee-243ff3265433": {
+            "paths": [
+                "metadata/view/security.GroupsEdit",
+                "app/view/override/security/GroupsEdit.js",
+                "app/view/security/GroupsEdit.js"
+            ],
+            "className": "security.GroupsEdit"
+        },
+        "9c1d2a89-912e-46cf-b930-a09f566c079a": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "a163da26-10db-429f-9493-f411ae597e48": {
+            "paths": [
+                "metadata/view/security.GroupsList",
+                "app/view/override/security/GroupsList.js",
+                "app/view/security/GroupsList.js"
+            ],
+            "className": "security.GroupsList"
+        },
+        "e57832c9-b74a-44de-a830-be6140fa8abc": {
+            "paths": [
+                "metadata/view/security.Profile",
+                "app/view/override/security/Profile.js",
+                "app/view/security/Profile.js"
+            ],
+            "className": "security.Profile"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "cc437b92-c594-486a-8741-576d1c77541d",
+            "d30b42c6-25b3-4d7c-a5ff-eac2311164d8",
+            "be6046f9-469c-40f8-9568-c8c01b2af3c1",
+            "15e275cb-5648-42db-bf03-b9e51835802a",
+            "8c7cda12-5d95-4d37-87a2-a26484383947",
+            "25c4d11a-7ea9-4a62-98d5-4e79445c854e",
+            "4eff05f2-f1e5-4347-808e-40fa98aec738",
+            "a44924a3-1176-4271-8098-6e44799434c0",
+            "7bbf302d-cdda-446c-92a1-a4f88ec0ecf3",
+            "207b4a66-8557-4044-a1ee-243ff3265433",
+            "a163da26-10db-429f-9493-f411ae597e48",
+            "e57832c9-b74a-44de-a830-be6140fa8abc"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "9c1d2a89-912e-46cf-b930-a09f566c079a"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

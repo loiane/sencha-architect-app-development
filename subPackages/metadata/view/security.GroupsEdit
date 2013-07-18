@@ -1,0 +1,16 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 250,
+        "width": 400,
+        "designer|userClassName": "security.GroupsEdit",
+        "bodyPadding": 10,
+        "title": "My Form"
+    },
+    "designerId": "207b4a66-8557-4044-a1ee-243ff3265433"
+}

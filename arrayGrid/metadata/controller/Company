@@ -1,0 +1,73 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Company"
+        ],
+        "stores": [
+            "Companies"
+        ],
+        "views": [
+            "CompanyGrid"
+        ],
+        "designer|userClassName": "Company"
+    },
+    "designerId": "964a9437-49d8-4a24-a393-75303a11f142",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "init",
+                "designer|params": [
+                    "application"
+                ],
+                "implHandler": [
+                    ""
+                ]
+            },
+            "designerId": "22f81859-db6b-40ba-85a4-3526a7a4c0fc"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "handleActionColumn",
+                "designer|params": [
+                    "column",
+                    "action",
+                    "view",
+                    "rowIndex",
+                    "colIndex",
+                    "item",
+                    "e"
+                ],
+                "implHandler": [
+                    "var rec = view.getRecords(view.getNodes())[rowIndex];",
+                    "if (action == 'sell'){",
+                    "    Ext.Msg.alert('', \"Sell \" + rec.get('company'));",
+                    "} else {",
+                    "    Ext.Msg.alert('', (rec.get('change') < 0 ? \"Hold \" : \"Buy \") + rec.get('company'));",
+                    "}    "
+                ],
+                "name": "itemclick",
+                "scope": "me",
+                "designer|controlQuery": "companygrid actioncolumn"
+            },
+            "designerId": "7cfa1608-e2c9-4ecd-bc0e-7555eca69b97"
+        }
+    ]
+}

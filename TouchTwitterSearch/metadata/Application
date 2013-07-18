@@ -1,0 +1,24 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Tweet"
+        ],
+        "stores": [
+            "Tweets"
+        ],
+        "views": [
+            "SearchList"
+        ],
+        "controllers": [
+            "Tweets"
+        ],
+        "name": "MyApp"
+    },
+    "designerId": "application"
+}

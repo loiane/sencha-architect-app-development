@@ -1,0 +1,13 @@
+{
+    "type": "Ext.toolbar.Toolbar",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "width": 400,
+        "designer|userClassName": "toolbar.AddEditDelete"
+    },
+    "designerId": "15e275cb-5648-42db-bf03-b9e51835802a"
+}
