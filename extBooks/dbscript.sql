@@ -8,7 +8,7 @@ USE `senchaArchitect` ;
 -- -----------------------------------------------------
 -- Table `senchaArchitect`.`Book`
 -- -----------------------------------------------------
-CREATE  TABLE IF NOT EXISTS `senchaArchitect`.`Book` (
+CREATE  TABLE IF NOT EXISTS `senchaArchitect`.`book` (
   `id` INT NOT NULL ,
   `name` VARCHAR(100) NOT NULL ,
   `author` VARCHAR(200) NOT NULL ,
