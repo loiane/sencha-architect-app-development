@@ -1,8 +1,8 @@
 {
     "name": "subPackages",
     "settings": {},
-    "xdsVersion": "2.2.2",
-    "xdsBuild": 991,
+    "xdsVersion": "2.2.3",
+    "xdsBuild": 1044,
     "schemaVersion": 1,
     "upgradeVersion": 210000000503,
     "framework": "ext42",

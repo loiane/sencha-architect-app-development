@@ -1,7 +1,7 @@
 {
     "name": "arrayGrid",
     "settings": {
-        "urlPrefix": "http://loianeg.local/sencha-architect/arrayGrid/",
+        "urlPrefix": "http://localhost/sencha-architect-app-development/arrayGrid/app.html",
         "spacesToIndent": 4,
         "codeGenFormat": "Class",
         "exportPath": "",
@@ -15,8 +15,8 @@
         "cacheBust": false,
         "buildShouldOverwriteIndex": true
     },
-    "xdsVersion": "2.2.2",
-    "xdsBuild": 991,
+    "xdsVersion": "2.2.3",
+    "xdsBuild": 1044,
     "schemaVersion": 1,
     "upgradeVersion": 210000000503,
     "framework": "ext42",

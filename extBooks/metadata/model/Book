@@ -18,8 +18,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "id",
-                "designer|userClassName": "MyField"
+                "name": "id"
             },
             "designerId": "8a0f57ea-0565-4c7a-9119-32805628245a"
         },
@@ -31,8 +30,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "name",
-                "designer|userClassName": "MyField1"
+                "name": "name"
             },
             "designerId": "11170ebc-bf1f-4285-8f88-2c7fe52681fa"
         },
@@ -44,8 +42,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "author",
-                "designer|userClassName": "MyField2"
+                "name": "author"
             },
             "designerId": "79fd22e2-f123-4e2f-955a-6542fa017669"
         },
@@ -57,8 +54,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "language",
-                "designer|userClassName": "MyField4"
+                "name": "language"
             },
             "designerId": "fc8a00e2-8186-4c3c-be32-6129c0c4ca1b"
         },
@@ -70,8 +66,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "paperback",
-                "designer|userClassName": "MyField5"
+                "name": "paperback"
             },
             "designerId": "d2e229d0-4ce0-4d2b-8dab-2018f450c3dc"
         },
@@ -83,8 +78,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "releaseDate",
-                "designer|userClassName": "MyField6"
+                "name": "releaseDate"
             },
             "designerId": "2d00ea79-f171-4de9-a4c7-3904a32c3bd8"
         },
@@ -96,8 +90,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "isbn",
-                "designer|userClassName": "MyField7"
+                "name": "isbn"
             },
             "designerId": "a2a0965e-3d5b-40fd-95b0-7f7e98a66ef2"
         },
@@ -109,8 +102,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "isbn13",
-                "designer|userClassName": "MyField8"
+                "name": "isbn13"
             },
             "designerId": "41ade186-2608-45e1-a525-12ea72dcdbf3"
         }

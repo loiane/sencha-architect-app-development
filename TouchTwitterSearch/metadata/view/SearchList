@@ -27,7 +27,6 @@
                 "docked": "top",
                 "height": 50,
                 "ui": null,
-                "designer|userClassName": "MyToolbar1",
                 "title": "Touch Twitter Search"
             },
             "designerId": "e5409e17-2660-4c68-91c5-b8f05d7bceec"
@@ -41,8 +40,7 @@
             "codeClass": null,
             "userConfig": {
                 "docked": "top",
-                "style": null,
-                "designer|userClassName": "MyToolbar"
+                "style": null
             },
             "designerId": "819d30ca-44fb-42c0-a82e-cdc9774ee673",
             "cn": [
@@ -56,7 +54,6 @@
                     "userConfig": {
                         "layout|flex": 4,
                         "width": null,
-                        "designer|userClassName": "MyTextField",
                         "label": "",
                         "name": "textQuery"
                     },
@@ -73,7 +70,6 @@
                         "action": "search",
                         "layout|flex": 2,
                         "ui": "round",
-                        "designer|userClassName": "MyButton",
                         "text": "Search"
                     },
                     "designerId": "6a37b751-2315-42e0-a148-898909a156b1",
@@ -95,7 +91,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "itemTpl",
                 "implHandler": [
                     "<div class=\"tweet_data\">",
                     "<div class=\"tweet_avatar\">",

@@ -18,8 +18,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "profile_image_url",
-                "designer|userClassName": "MyField"
+                "name": "profile_image_url"
             },
             "designerId": "94d1e059-9678-4081-bcbb-d5d08072ba21"
         },
@@ -31,8 +30,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "from_user",
-                "designer|userClassName": "MyField1"
+                "name": "from_user"
             },
             "designerId": "33efcb7a-76cf-47ce-aa68-96b4d5bc8a0f"
         },
@@ -44,8 +42,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "text",
-                "designer|userClassName": "MyField2"
+                "name": "text"
             },
             "designerId": "5d1a89e0-1ff7-44d5-824b-b1267b97345e"
         }

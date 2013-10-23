@@ -28,7 +28,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onGridpanelRender",
                 "fn": "onGridpanelRender",
                 "implHandler": [
                     "component.getStore().load();"

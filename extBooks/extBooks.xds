@@ -9,10 +9,10 @@
         "exportPath": "/Applications/XAMPP/xamppfiles/htdocs/sencha-architect/publish",
         "buildShouldOverwriteIndex": true
     },
-    "xdsVersion": "2.2.1",
-    "xdsBuild": 951,
+    "xdsVersion": "2.2.3",
+    "xdsBuild": 1044,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000500,
+    "upgradeVersion": 210000000503,
     "framework": "ext42",
     "topInstanceFileMap": {
         "fd71c048-a00e-4e39-b739-7135255c124a": {

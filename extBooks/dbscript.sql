@@ -29,7 +29,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 -- Populating the Book table
 -- -----------------------------------------------------
-INSERT INTO `Book` 
+INSERT INTO `book` 
 (`id`,`name`,`author`,`language`,`paperback`,`releaseDate`,`isbn`,`isbn13`) 
 VALUES 
 (1,'Mastering Ext JS','Loiane Groner','English','350 pages [ 235mm x 191mm ]','August 2013','1782164006','9781782164005');

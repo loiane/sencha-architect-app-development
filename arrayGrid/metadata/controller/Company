@@ -57,6 +57,7 @@
                 ],
                 "implHandler": [
                     "var rec = view.getRecords(view.getNodes())[rowIndex];",
+                    "",
                     "if (action == 'sell'){",
                     "    Ext.Msg.alert('', \"Sell \" + rec.get('company'));",
                     "} else {",

@@ -16,10 +16,10 @@
         "buildShouldOverwriteIndex": true,
         "sdkPath": "/Applications/XAMPP/xamppfiles/htdocs/sencha-touch-2.1.0-gpl"
     },
-    "xdsVersion": "2.2.1",
-    "xdsBuild": 951,
+    "xdsVersion": "2.2.3",
+    "xdsBuild": 1044,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000500,
+    "upgradeVersion": 210000000503,
     "framework": "touch22",
     "topInstanceFileMap": {
         "ad80770d-bade-46e7-86b8-744ea8bf552d": {
@@ -60,18 +60,6 @@
             ],
             "className": "Library"
         },
-        "27700dd9-4ded-4645-95f0-a36486fdaee7": {
-            "paths": [
-                "metadata/resource/css"
-            ],
-            "className": "css"
-        },
-        "3179590e-b56a-4a41-9b9f-f19a6cff44b9": {
-            "paths": [
-                "metadata/resource/css1"
-            ],
-            "className": "css1"
-        },
         "8d2a0509-ad05-46d2-b308-592688af15a0": {
             "paths": [
                 "metadata/resource/packager",
@@ -96,8 +84,6 @@
         ],
         "resource": [
             "4b0ba7ab-f1b8-4ce6-b45d-b7dd14ea91c5",
-            "27700dd9-4ded-4645-95f0-a36486fdaee7",
-            "3179590e-b56a-4a41-9b9f-f19a6cff44b9",
             "8d2a0509-ad05-46d2-b308-592688af15a0"
         ],
         "app": [

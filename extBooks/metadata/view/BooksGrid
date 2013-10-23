@@ -22,9 +22,6 @@
                 "type": "object"
             },
             "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MyGridView"
-            },
             "designerId": "5442d58b-33aa-467d-96c4-2a0f5bfcc940"
         },
         {
@@ -36,7 +33,6 @@
             "codeClass": null,
             "userConfig": {
                 "width": 53,
-                "designer|userClassName": "MyColumn1",
                 "dataIndex": "id",
                 "text": "Id"
             },
@@ -50,7 +46,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn2",
                 "dataIndex": "name",
                 "text": "Name",
                 "flex": 1
@@ -65,7 +60,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn3",
                 "dataIndex": "author",
                 "text": "Author"
             },
@@ -79,7 +73,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn5",
                 "dataIndex": "language",
                 "text": "Language"
             },
@@ -94,7 +87,6 @@
             "codeClass": null,
             "userConfig": {
                 "width": 180,
-                "designer|userClassName": "MyColumn6",
                 "dataIndex": "paperback",
                 "text": "Paperback"
             },
@@ -108,7 +100,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn7",
                 "dataIndex": "releaseDate",
                 "text": "Release Date"
             },
@@ -122,7 +113,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn8",
                 "dataIndex": "isbn",
                 "text": "Isbn"
             },
@@ -136,7 +126,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn9",
                 "dataIndex": "isbn13",
                 "text": "Isbn13"
             },
@@ -152,7 +141,6 @@
             "userConfig": {
                 "dock": "bottom",
                 "width": 360,
-                "designer|userClassName": "MyPagingToolbar",
                 "displayInfo": true,
                 "store": "Books"
             },

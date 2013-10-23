@@ -27,7 +27,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onButtonTap",
                 "fn": "onButtonTap",
                 "implHandler": [
                     "var store = Ext.getStore(\"Tweets\");",
@@ -49,7 +48,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "textquery",
                 "ref": "textquery",
                 "selector": "searchlist field",
                 "xtype": "field"
